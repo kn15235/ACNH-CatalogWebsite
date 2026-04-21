@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Apple Pie",
+    "image": "assets/recipes/apple-pie.png",
+    "price": 1880,
+    "ingredients": [
+      { "label": "3 Flour",
+        "image": "assets/ingredients/flour.png"
+      },
+      { "label": "2 Sugar" ,
+              "image": "assets/ingredients/sugar.png"
+      },
+      { "label": "2 Apples",
+        "image": "assets/ingredients/apple.png"
+     }
+    ]
+  },
+
+  {
+    "name": "Carrot Cake",
+    "image": "assets/recipes/carrot-cake.png",
+    "price": 1880,
+    "ingredients": [
+      { "label": "1 Flour",
+        "image": "assets/ingredients/flour.png"
+      },
+      { "label": "1 Sugar" ,
+              "image": "assets/ingredients/sugar.png"
+      },
+      { "label": "1 Carrot",
+        "image": "assets/ingredients/carrot.png"
+     }
+    ]
+  }
+]
