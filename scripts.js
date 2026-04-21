@@ -21,6 +21,7 @@
  *    browser and observe what happens. You should see a fourth "card" appear
  *    with the string you added to the array, but a broken image.
  *
+ * **/
 
 
 const FRESH_PRINCE_URL =
@@ -96,4 +97,3 @@ function removeLastCard() {
   showCards(); // Call showCards again to refresh
 }
 
-*/
