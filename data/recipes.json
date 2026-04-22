@@ -3,6 +3,7 @@
     "name": "Apple Pie",
     "image": "assets/recipes/apple-pie.png",
     "price": 1880,
+    "description": "A warm, delicious fruit pie with a flaky crust and sweet apple filling",
     "ingredients": [
       { "label": "3 Flour",
         "image": "assets/ingredients/flour.png"
@@ -19,7 +20,8 @@
   {
     "name": "Carrot Cake",
     "image": "assets/recipes/carrot-cake.png",
-    "price": 1880,
+    "price": 660,
+    "description": " A spring special with an angel cake base, cream cheese filling, w/ shredded carrots",
     "ingredients": [
       { "label": "1 Flour",
         "image": "assets/ingredients/flour.png"
@@ -30,6 +32,21 @@
       { "label": "1 Carrot",
         "image": "assets/ingredients/carrot.png"
      }
+    ]
+  },
+
+    {
+    "name": "Spaghetti Marinara",
+    "image": "assets/recipes/spaghetti-marinara.png",
+    "price": 660,
+    "description": "A cozy plate of pasta with bright tomato sauce that looks fresh from the island kitchen",
+    "ingredients": [
+      { "label": "3 Flour",
+        "image": "assets/ingredients/flour.png"
+      },
+      { "label": "1 Tomato Puree" ,
+              "image": "assets/ingredients/tomato-puree.png"
+      }
     ]
   }
 ]
