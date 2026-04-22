@@ -67,8 +67,9 @@ function editCardContent(card, recipe) {
   cardImage.src = recipe.image;
   cardImage.alt = recipe.name;
 
-  card.querySelector(".price").textContent =
-    "Price: " + recipe.price + " Bells";
+  card.querySelector(".price-value").textContent =
+    "Price: " + recipe.price;
+    
 
   const list = card.querySelector(".ingredients");
   list.innerHTML = "";
