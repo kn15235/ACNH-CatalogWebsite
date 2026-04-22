@@ -16,11 +16,10 @@
      }
     ]
   },
-
   {
     "name": "Carrot Cake",
     "image": "assets/recipes/carrot-cake.png",
-    "price": 660,
+    "price": 630,
     "description": " A spring special with an angel cake base, cream cheese filling, w/ shredded carrots",
     "ingredients": [
       { "label": "1 Flour",
@@ -38,7 +37,7 @@
     {
     "name": "Spaghetti Marinara",
     "image": "assets/recipes/spaghetti-marinara.png",
-    "price": 200,
+    "price": 2210,
     "description": "A cozy plate of pasta with bright tomato sauce that looks fresh from the island kitchen",
     "ingredients": [
       { "label": "3 Flour",
@@ -48,5 +47,366 @@
               "image": "assets/ingredients/tomato-puree.png"
       }
     ]
+  },
+
+  {
+    "name": "Aji Fry",
+    "image": "assets/recipes/aji-fry.png",
+    "price": 540,
+    "description": "A golden fried horse mackerel dish with a crisp coating and simple seaside comfort.",
+    "ingredients": [
+      { "label": "1 Horse Mackerel", "image": "assets/ingredients/horse-mackerel.png" },
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" }
+    ]
+  },
+  {
+    "name": "Apple Jelly",
+    "image": "assets/recipes/apple-jelly.png",
+    "price": 200,
+    "description": "A simple sweet apple jelly with a bright fruity flavor.",
+    "ingredients": [
+      { "label": "2 Apples", "image": "assets/ingredients/apple.png" }
+    ]
+  },
+  {
+    "name": "Apple Tart",
+    "image": "assets/recipes/apple-tart.png",
+    "price": 780,
+    "description": "A small apple tart with buttery pastry and sweet fruit filling.",
+    "ingredients": [
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" },
+      { "label": "1 Apple", "image": "assets/ingredients/apple.png" }
+    ]
+  },
+  {
+    "name": "Bread",
+    "image": "assets/recipes/bread.png",
+    "price": 950,
+    "description": "A soft loaf of homemade bread with a warm golden crust.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" }
+    ]
+  },
+  {
+    "name": "Carrot Juice",
+    "image": "assets/recipes/carrot-juice.png",
+    "price": 200,
+    "description": "A fresh glass of carrot juice with a bright homemade feel.",
+    "ingredients": [
+      { "label": "2 Carrots", "image": "assets/ingredients/carrot.png" }
+    ]
+  },
+  {
+    "name": "Cherry Jelly",
+    "image": "assets/recipes/cherry-jelly.png",
+    "price": 200,
+    "description": "A sweet cherry jelly with a bright and fruity taste.",
+    "ingredients": [
+      { "label": "2 Cherries", "image": "assets/ingredients/cherry.png" }
+    ]
+  },
+  {
+    "name": "Clam Chowder",
+    "image": "assets/recipes/clam-chowder.png",
+    "price": 1020,
+    "description": "A creamy chowder made with clams and flour for a rich, cozy bowl.",
+    "ingredients": [
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "3 Manila Clams", "image": "assets/ingredients/manila-clam.png" }
+    ]
+  },
+  {
+    "name": "Cookies",
+    "image": "assets/recipes/cookies.png",
+    "price": 630,
+    "description": "Classic homemade cookies with a sweet buttery flavor.",
+    "ingredients": [
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "Fish and Chips",
+    "image": "assets/recipes/fish-and-chips.png",
+    "price": 1200,
+    "description": "A crispy seafood plate with potatoes and dab.",
+    "ingredients": [
+      { "label": "2 Potatoes", "image": "assets/ingredients/potato.png" },
+      { "label": "1 Dab", "image": "assets/ingredients/dab.png" }
+    ]
+  },
+  {
+    "name": "Fruit Pizza",
+    "image": "assets/recipes/fruit-pizza.png",
+    "price": 2500,
+    "description": "A dessert-style pizza topped with all five island fruits.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Apple", "image": "assets/ingredients/apple.png" },
+      { "label": "1 Orange", "image": "assets/ingredients/orange.png" },
+      { "label": "1 Pear", "image": "assets/ingredients/pear.png" },
+      { "label": "1 Peach", "image": "assets/ingredients/peach.png" },
+      { "label": "1 Cherry", "image": "assets/ingredients/cherry.png" }
+    ]
+  },
+  {
+    "name": "Fruit Salad",
+    "image": "assets/recipes/fruit-salad.png",
+    "price": 1550,
+    "description": "A bright mixed fruit bowl made from all five fruits.",
+    "ingredients": [
+      { "label": "1 Apple", "image": "assets/ingredients/apple.png" },
+      { "label": "1 Orange", "image": "assets/ingredients/orange.png" },
+      { "label": "1 Pear", "image": "assets/ingredients/pear.png" },
+      { "label": "1 Peach", "image": "assets/ingredients/peach.png" },
+      { "label": "1 Cherry", "image": "assets/ingredients/cherry.png" }
+    ]
+  },
+  {
+    "name": "Gnocchi di Patate",
+    "image": "assets/recipes/gnocchi-di-patate.png",
+    "price": 2210,
+    "description": "A hearty potato gnocchi dish with soft dumplings and a handmade feel.",
+    "ingredients": [
+      { "label": "2 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "3 Potatoes", "image": "assets/ingredients/potato.png" }
+    ]
+  },
+  {
+    "name": "Grilled Sea Bass with Herbs",
+    "image": "assets/recipes/grilled-sea-bass-with-herbs.png",
+    "price": 360,
+    "description": "A simply grilled sea bass dish seasoned with wild herbs.",
+    "ingredients": [
+      { "label": "1 Sea Bass", "image": "assets/ingredients/sea-bass.png" },
+      { "label": "5 Clumps of Weeds", "image": "assets/ingredients/weeds.png" }
+    ]
+  },
+  {
+    "name": "Pancakes",
+    "image": "assets/recipes/pancakes.png",
+    "price": 1260,
+    "description": "A fluffy stack of pancakes perfect for a cozy breakfast.",
+    "ingredients": [
+      { "label": "2 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Sugars", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "Peach Jelly",
+    "image": "assets/recipes/peach-jelly.png",
+    "price": 300,
+    "description": "A soft peach jelly with a light fruity sweetness.",
+    "ingredients": [
+      { "label": "2 Peaches", "image": "assets/ingredients/peach.png" }
+    ]
+  },
+  {
+    "name": "Peach Pie",
+    "image": "assets/recipes/peach-pie.png",
+    "price": 1880,
+    "description": "A warm peach pie with sweet filling and a flaky crust.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Sugars", "image": "assets/ingredients/sugar.png" },
+      { "label": "2 Peaches", "image": "assets/ingredients/peach.png" }
+    ]
+  },
+  {
+    "name": "Peach Smoothie",
+    "image": "assets/recipes/peach-smoothie.png",
+    "price": 300,
+    "description": "A refreshing smoothie blended from ripe peaches.",
+    "ingredients": [
+      { "label": "2 Peaches", "image": "assets/ingredients/peach.png" }
+    ]
+  },
+  {
+    "name": "Peach Tart",
+    "image": "assets/recipes/peach-tart.png",
+    "price": 780,
+    "description": "A delicate tart with peach slices and a sweet pastry base.",
+    "ingredients": [
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" },
+      { "label": "1 Peach", "image": "assets/ingredients/peach.png" }
+    ]
+  },
+  {
+    "name": "Pear Jelly",
+    "image": "assets/recipes/pear-jelly.png",
+    "price": 300,
+    "description": "A sweet pear jelly with a soft fruit flavor.",
+    "ingredients": [
+      { "label": "2 Pears", "image": "assets/ingredients/pear.png" }
+    ]
+  },
+  {
+    "name": "Pear Pie",
+    "image": "assets/recipes/pear-pie.png",
+    "price": 1880,
+    "description": "A comforting pear pie with sweet fruit and crisp pastry.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Sugars", "image": "assets/ingredients/sugar.png" },
+      { "label": "2 Pears", "image": "assets/ingredients/pear.png" }
+    ]
+  },
+  {
+    "name": "Pesce all'acqua pazza",
+    "image": "assets/recipes/pesce-allacqua-pazza.png",
+    "price": 4140,
+    "description": "A rustic seafood dish simmered with tomato and clam.",
+    "ingredients": [
+      { "label": "1 Red Snapper", "image": "assets/ingredients/red-snapper.png" },
+      { "label": "1 Tomato", "image": "assets/ingredients/tomato.png" },
+      { "label": "1 Manila Clam", "image": "assets/ingredients/manila-clam.png" }
+    ]
+  },
+  {
+    "name": "Pizza Margherita",
+    "image": "assets/recipes/pizza-margherita.png",
+    "price": 2000,
+    "description": "A classic tomato pizza with a simple homemade style.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Tomatoes", "image": "assets/ingredients/tomato.png" }
+    ]
+  },
+  {
+    "name": "Potato Curry",
+    "image": "assets/recipes/potato-curry.png",
+    "price": 2520,
+    "description": "A warm curry dish made with flour and hearty potatoes.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "3 Potatoes", "image": "assets/ingredients/potato.png" }
+    ]
+  },
+  {
+    "name": "Salad-Stuffed Tomato",
+    "image": "assets/recipes/salad-stuffed-tomato.png",
+    "price": 640,
+    "description": "A fresh tomato dish stuffed with salad for a light meal.",
+    "ingredients": [
+      { "label": "2 Tomatoes", "image": "assets/ingredients/tomato.png" }
+    ]
+  },
+  {
+    "name": "Salmon Sandwich",
+    "image": "assets/recipes/salmon-sandwich.png",
+    "price": 200,
+    "description": "A simple sandwich made with salmon and whole-wheat flour bread.",
+    "ingredients": [
+      { "label": "2 Whole-Wheat Flour", "image": "assets/ingredients/whole-wheat-flour.png" },
+      { "label": "1 Salmon", "image": "assets/ingredients/salmon.png" }
+    ]
+  },
+  {
+    "name": "Sautéed Olive Flounder",
+    "image": "assets/recipes/sauteed-olive-flounder.png",
+    "price": 200,
+    "description": "A pan-cooked olive flounder dish paired with skinny mushroom.",
+    "ingredients": [
+      { "label": "1 Olive Flounder", "image": "assets/ingredients/olive-flounder.png" },
+      { "label": "1 Skinny Mushroom", "image": "assets/ingredients/skinny-mushroom.png" }
+    ]
+  },
+  {
+    "name": "Seafood Ajillo",
+    "image": "assets/recipes/seafood-ajillo.png",
+    "price": 200,
+    "description": "A savory seafood dish combining tiger prawn, squid, and scallop.",
+    "ingredients": [
+      { "label": "1 Tiger Prawn", "image": "assets/ingredients/tiger-prawn.png" },
+      { "label": "1 Squid", "image": "assets/ingredients/squid.png" },
+      { "label": "1 Scallop", "image": "assets/ingredients/scallop.png" }
+    ]
+  },
+  {
+    "name": "Seafood Pizza",
+    "image": "assets/recipes/seafood-pizza.png",
+    "price": 200,
+    "description": "A seafood-topped pizza with prawn and clams on a flour base.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Tiger Prawn", "image": "assets/ingredients/tiger-prawn.png" },
+      { "label": "2 Manila Clams", "image": "assets/ingredients/manila-clam.png" }
+    ]
+  },
+  {
+    "name": "Seafood Salad",
+    "image": "assets/recipes/seafood-salad.png",
+    "price": 200,
+    "description": "A light seafood salad using squid and sweet shrimp.",
+    "ingredients": [
+      { "label": "1 Squid", "image": "assets/ingredients/squid.png" },
+      { "label": "1 Sweet Shrimp", "image": "assets/ingredients/sweet-shrimp.png" }
+    ]
+  },
+  {
+    "name": "Spooky Cookies",
+    "image": "assets/recipes/spooky-cookies.png",
+    "price": 200,
+    "description": "A seasonal plate of Halloween-themed cookies.",
+    "ingredients": [
+      { "label": "1 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" },
+      { "label": "1 Orange Pumpkin", "image": "assets/ingredients/orange-pumpkin.png" }
+    ]
+  },
+  {
+    "name": "Squid-Ink Spaghetti",
+    "image": "assets/recipes/squid-ink-spaghetti.png",
+    "price": 200,
+    "description": "A dark pasta dish made with flour and squid.",
+    "ingredients": [
+      { "label": "3 Flours", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Squid", "image": "assets/ingredients/squid.png" }
+    ]
+  },
+  {
+    "name": "Tomato Bagel Sandwich",
+    "image": "assets/recipes/tomato-bagel-sandwich.png",
+    "price": 200,
+    "description": "A simple sandwich with tomatoes on a flour-based bagel.",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "3 Tomato", "image": "assets/ingredients/tomato.png" }
+    ]
+  },
+  {
+    "name": "Turnip Salad",
+    "image": "assets/recipes/turnip-salad.png",
+    "price": 200,
+    "description": "A fresh salad made with turnips and tomato.",
+    "ingredients": [
+      { "label": "1 10 Turnips", "image": "assets/ingredients/turnip.png" },
+      { "label": "1 Tomato", "image": "assets/ingredients/tomato.png" }
+    ]
+  },
+  {
+    "name": "Veggie Crepe",
+    "image": "assets/recipes/veggie-crepe.png",
+    "price": 200,
+    "description": "A savory crepe filled with tomato and orange pumpkin.",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Tomato", "image": "assets/ingredients/tomato.png" },
+      { "label": "1 Orange Pumpkin", "image": "assets/ingredients/orange-pumpkin.png" }
+    ]
+  },
+  {
+    "name": "Veggie Sandwich",
+    "image": "assets/recipes/veggie-sandwich.png",
+    "price": 200,
+    "description": "A simple sandwich filled with tomato and carrot.",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Tomato", "image": "assets/ingredients/tomato.png" },
+      { "label": "1 Carrot", "image": "assets/ingredients/carrot.png" }
+    ]
   }
+
 ]
