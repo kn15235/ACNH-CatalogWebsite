@@ -10,7 +10,7 @@ It's an **open-source** catalog website inspired by Animal Crossing recipes espe
 
 <img src="./assets/website-preview.png" alt="Website Preview" width="1000">
 
-##⭐ Project Highlights
+## ⭐ Project Highlights
 
 - Displays Animal Crossing-inspired recipe cards with images
 - Shows ingredient lists with matching ingredient icons
@@ -21,13 +21,15 @@ It's an **open-source** catalog website inspired by Animal Crossing recipes espe
 
 
 ### 🍽️ Recipe and ingredient examples 
-
+<p>
 <img src="./assets/recipes/snapchat-cookie.png" alt="SnapChat cookie" width="140">
 <img src="./assets/recipes/ghostface-cake.png" alt="GhostFace cake" width="140">
 <img src="./assets/recipes/html-cookie.png" alt="HTML cookie" width="140">
 <img src="./assets/recipes/css-cookie.png" alt="CSS cookie" width="140">
 <img src="./assets/recipes/js-cookie.png" alt="JS cookie" width="140">
+</p>
 
+<p>
 <img src="./assets/ingredients/pear.png" alt="Flour" width="60">
 <img src="./assets/ingredients/peach.png" alt="Sugar " width="60">
 <img src="./assets/ingredients/apple.png" alt="Apple" width="60">
@@ -36,6 +38,7 @@ It's an **open-source** catalog website inspired by Animal Crossing recipes espe
 <img src="./assets/ingredients/potato.png" alt="Potato" width="60">
 <img src="./assets/ingredients/sugar.png" alt="sugar" width="60">
 <img src="./assets/ingredients/tomato.png" alt="Tomato" width="60">
+</p>
 
 
 
