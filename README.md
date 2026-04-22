@@ -1,140 +1,225 @@
-# SEA Stage 2 - Data Catalog Project
+# 👨‍🍳 Animal Crossing Kitchen <img src="./assets/recipe-card.png" width="38">
 
-This repository contains the instructions, requirements, and starter code for Stage Two of the Snap Engineering Academy application process.
+Hello! This is my Stage 2 project assessment submission for the **Snap Engineering Academy (SEA)**
 
----
+It's an **open-source** catalog website inspired by Animal Crossing recipes especially from New Horizons! (I am currently addicted to the game...). In the site, it shows the recipe cards with their ingredients, bell price, and small/short descriptions of the food. There are also fanmade entries too! My favorite are the HTML, CSS, JS cookies along with the Snapchat mascot!  ❤️ 
 
-## 📚 Table of Contents
+ ``` I do not own Animal Crossing: New Horizons or any of its original characters, designs, names, or in-game content. All related intellectual property belongs to Nintendo. ```
 
-- [Your Task](#your-task)
-- [Requirements](#requirements---your-catalog-website-should)
-- [Getting Started](#getting-started)
-- [Submitting](#submitting)
-- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 
----
 
-## 🎯 Your Task
+<img src="./assets/website-preview.png" alt="Website Preview" width="1000">
 
-### <p align="center">Create a "catalog" website for something you're passionate about.</p>
+##⭐ Project Highlights
 
-> 📝 **Note:**  
-> If you have not used GitHub or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.
+- Displays Animal Crossing-inspired recipe cards with images
+- Shows ingredient lists with matching ingredient icons
+- Includes fanmade recipe entries with their own images and descriptions
+- Lets users search recipes by name
+- Lets users sort recipes by name or by price
+- Includes a remove feature to remove the last displayed card
 
----
 
-## ✅ Requirements - Your Catalog Website Should...
+### 🍽️ Recipe and ingredient examples 
 
-- Show off your understanding of basic data structures: [**arrays**](https://www.w3schools.com/js/js_arrays.asp) and [**objects**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects).
-- Display a **substantial amount of interesting data** in a "catalog". You can look online for datasets or create your own. Make sure you import the data yourself and are not fetching an API.
-  - Your data should be easy to find in your source code—either in variables at the top of `scripts.js` or imported from a file.
-- Include **two or more features** that **operate** on your data and modify how the data is displayed. Examples of features that operate on your data are:
-  - Filtering
-  - Searching
-  - Sorting
-  - Updating
-  - Adding/removing entries  
-    Think about what users might want to do while using your site!
-- Look polished ✨. Use **HTML** and **CSS** to make your data easy to read and visually appealing.
-- Be built from this **starter code**—you can change anything you want, but build on top of it.
-- Be an **original** project. Please do not submit something previously created for a class, internship, or client.  
-  You are encouraged to use online resources, but **make sure you understand every line of code** in your project.
+<img src="./assets/recipes/snapchat-cookie.png" alt="SnapChat cookie" width="140">
+<img src="./assets/recipes/ghostface-cake.png" alt="GhostFace cake" width="140">
+<img src="./assets/recipes/html-cookie.png" alt="HTML cookie" width="140">
+<img src="./assets/recipes/css-cookie.png" alt="CSS cookie" width="140">
+<img src="./assets/recipes/js-cookie.png" alt="JS cookie" width="140">
 
----
+<img src="./assets/ingredients/pear.png" alt="Flour" width="60">
+<img src="./assets/ingredients/peach.png" alt="Sugar " width="60">
+<img src="./assets/ingredients/apple.png" alt="Apple" width="60">
+<img src="./assets/ingredients/carrot.png" alt="Carrot" width="60">
+<img src="./assets/ingredients/cherry.png" alt="Cherry" width="60">
+<img src="./assets/ingredients/potato.png" alt="Potato" width="60">
+<img src="./assets/ingredients/sugar.png" alt="sugar" width="60">
+<img src="./assets/ingredients/tomato.png" alt="Tomato" width="60">
 
-## 🛠️ Getting Started
 
-1. [**Create a GitHub account**](https://github.com/) if you haven't already.
-2. Click the blue **"Use as Template"** button in the upper right corner, then choose **"Create a new repository"**:  
-   <img height="300" alt="Screenshot of catalog example" src="./assets/templateArrow.png">
-   Then :
 
-   2a. Choose yourself as the owner (aka your github account)
-   <br>
-   2b. Give your repository a name
-   <br>
-   2c. Click **"Create Repository"**
+## ⭐ Features
 
-3. Copy or download the files to your own computer.
-4. Open and edit the code using a text editor or an IDE, a popular IDE is [vsCode](https://code.visualstudio.com/):
-   - Take your time and read the files, read the comments as they are intended to guide you!
-   - Modify `index.html`, `style.css`, and `scripts.js`.
-   - To preview, open `index.html` in a web browser (double-click it).
-   - You should see something like this:
+### Search
 
-<img  alt="Screenshot of use template button location" src="https://github.com/Snap-Engineering-Academy-2023/rn_lab1/assets/7607483/fdd57236-50fe-48ca-956d-d9b4b12db038">
+Users can search for recipes by typing into the search bar. The site filters recipe cards by recipe name in real time.
 
----
+### Sorting
 
-## 🚀 Submitting
+Users can sort the displayed recipes by:
 
-1. **Publish your website to the internet!**  
-   We recommend using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-2. **Test the published version.**  
-   Make sure everything works properly before submitting.
-3. **Update your GitHub repository** so it reflects the latest version of your project.
-4. **Submit** BOTH:
-   - The **URL** to your published website
-   - The **link** to your GitHub repository  
-     …via the Google Form linked in your email.
-5. Complete the video questions via the Hireflix platform
+- Name: A to Z
+- Price: Low to High
+- Price: High to Low
 
----
+### Remove
 
-## ❓ Frequently Asked Questions (FAQ)
+Users can remove the last displayed recipe card from the page using the remove button.
 
-### ❄️ Is it OK that my catalog resets when I refresh the page?
+### Fanmade entries
 
-**Yes!** That's exactly what the starter code does too. You don't need to worry about preserving data after a page refresh.
+The site supports fanmade recipes by marking them in the JSON data with:
 
----
+```json
+"section": "fanmade"
+```
 
-### 💻 Can I copy bits of code from online resources?
+This makes it possible to separate custom entries from official-style ones.
 
-**Yes, absolutely!** You should search for and use **small chunks** of code.  
-For example:
+## 🗂️ Data Structure Used
 
-- ✅ Copying code to create a dropdown menu is fine.
-- ❌ Copying a full “filter data by date” feature is not.
+This project uses:
 
-Be thoughtful about what you borrow!
+- An array to store all recipe entries
+- Objects for each recipe
+- A nested array of ingredient objects inside each recipe
 
----
+This structure was a good fit because:
 
-### 🤖 Can I use generative AI (like ChatGPT or Copilot)?
+- Arrays make it easy to loop through all recipes and display them as cards
+- Objects keep each recipe's data grouped together in one place
+- Nested ingredient objects make it easy to store both the ingredient label and ingredient image
+- The structure supports features like searching, sorting, filtering, and rendering images without needing separate datasets
 
-**Partially.**
+Example recipe object:
 
-- ✅ You _may_ use AI tools to help write **HTML** and **CSS**.
-- ❌ You _may not_ use AI to write **JavaScript**.
+```json
+{
+  "name": "Apple Pie",
+  "image": "assets/recipes/apple-pie.png",
+  "price": 1880,
+  "description": "A warm, delicious fruit pie with a flaky crust and sweet apple filling",
+  "section": "official",
+  "ingredients": [
+    {
+      "label": "3 Flour",
+      "image": "assets/ingredients/flour.png"
+    },
+    {
+      "label": "2 Sugar",
+      "image": "assets/ingredients/sugar.png"
+    }
+  ]
+}
+```
 
-HTML/CSS can be tricky to get right, and it's okay to get help making things look nice.  
-But JavaScript is where you show your own logic and understanding of data!
+## 📝 Editing the JSON Data
 
----
+All recipe data is stored in [data/recipes.json](./data/recipes.json).
 
-### 🧰 Can I use a different template?
+Each recipe entry should include:
 
-**Nope!**  
-You must use the provided starter code, though you're free to customize it however you like.  
-You _can_ copy **small chunks** from other templates if needed.
+- `name`
+- `image`
+- `price`
+- `description`
+- `section`
+- `ingredients`
 
----
+Each ingredient inside `ingredients` should include:
 
-### 🛠️ Can I use a framework like React, Vue, Bootstrap, or Tailwind?
+- `label`
+- `image`
 
-**Nope!**  
-This project is for folks new to web dev. Frameworks do a lot of heavy lifting and hide the logic we're asking you to demonstrate.  
-SEA will teach you frameworks later—stick to **vanilla HTML, CSS, and JS** for now.
+Example:
 
----
+```json
+{
+  "name": "Macarons",
+  "image": "assets/recipes/macarons.png",
+  "price": 950,
+  "description": "A colorful plate of delicate sandwich cookies with a sweet filling.",
+  "section": "fanmade",
+  "ingredients": [
+    {
+      "label": "2 Flour",
+      "image": "assets/ingredients/flour.png"
+    },
+    {
+      "label": "2 Sugar",
+      "image": "assets/ingredients/sugar.png"
+    }
+  ]
+}
+```
 
-### 🌐 Can I use APIs?
+When editing `recipes.json`:
 
-**Nope!**  
-APIs can add complexity beyond the scope of this challenge.  
-If you really want to use data from an API, **save it to a file** (like `.json` or `.csv`) and use that instead.
+1. Make sure each recipe object is separated by commas.
+2. Keep all text inside double quotes.
+3. Make sure image paths match the actual files inside `assets/recipes` or `assets/ingredients`.
+4. Use `"section": "fanmade"` for custom entries you created.
+5. Use `"section": "official"` for official-style entries if you want the filters to work clearly.
 
----
+## 🗂️ File Structure
 
-> 💬 **Have any questions?** Drop them on the [Padlet here](https://padlet.com/arlenschallenge/2026-snap-engineering-academy-stage-2-project-assessment-que-9oux20x1z3g8lyyd) and we'll get back to you!
+```text
+ACNH-CatalogWebsite/
+|-- assets/
+|   |-- bell-coin.png
+|   |-- recipe-card.png
+|   |-- ingredients/
+|   |   |-- flour.png
+|   |   |-- sugar.png
+|   |   |-- tomato-puree.png
+|   |   `-- ...
+|   `-- recipes/
+|       |-- apple-pie.png
+|       |-- carrot-cake.png
+|       |-- spaghetti-marinara.png
+|       `-- ...
+|-- data/
+|   `-- recipes.json
+|-- index.html
+|-- scripts.js
+|-- style.css
+|-- LICENSE
+`-- README.md
+```
+
+## ⭐How It Works
+
+- [index.html](./index.html) contains the page structure, search bar, buttons, and card template.
+- [style.css](./style.css) controls the cozy visual styling for the page and cards.
+- [scripts.js](./scripts.js) loads the JSON data, renders cards, and handles searching, sorting, filtering, and removing cards.
+- [data/recipes.json](./data/recipes.json) stores all recipe and ingredient data.
+
+## Running the Project
+
+1. Clone or download this repository.
+2. Open the project in VS Code or another editor.
+3. Run it with a local server such as Live Server.
+
+Using a local server (like the Live Server VS Code extension) is recommended because the project loads `recipes.json` with JavaScript.
+
+## ❤️  Contributing
+
+This project can also be continued as a small open source project.
+
+Ways to contribute:
+
+- Add more official Animal Crossing recipes
+- Add more fanmade recipes
+- Improve the card design
+- Add better filtering categories
+- Improve accessibility with clearer alt text and keyboard support
+- Fix bugs in rendering, search, or sorting
+
+### Contribution steps
+
+1. Fork the repository.
+2. Create a new branch for your change.
+3. Make your updates.
+4. Test the site locally.
+5. Open a pull request with a short explanation of your changes.
+
+### Contribution tips for recipe data
+
+If you are contributing recipes:
+
+- Add the new image files to `assets/recipes/` or `assets/ingredients/`
+- Add the matching entry to `data/recipes.json`
+- Double-check that the image filenames and JSON paths match exactly
+- Keep descriptions short so cards stay readable
+
