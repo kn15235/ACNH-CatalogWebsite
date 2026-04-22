@@ -1,55 +1,80 @@
- html,
+html,
 body {
   font-family: Arial;
   margin: 0;
   padding: 0;
+  background: linear-gradient(180deg, #fff7ef 0%, #f8efe3 100%);
+  color: #5f4a3a;
 }
 
 .main-header {
   text-align: center;
-  background: #59b8ae; 
-  color: white; 
-  padding: 20px;
+  background: linear-gradient(135deg, #83c9b8 0%, #a7dbc4 100%);
+  color: #fffaf5; 
+  padding: 24px;
+  box-shadow: 0 3px 10px rgba(123, 93, 69, 0.12);
 }
 
 .title {
   margin: 0;
+  letter-spacing: 0.5px;
 }
 
 .controls {
   text-align: center; 
-  margin: 15px; 
+  margin: 18px 15px; 
 }
 
 #card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 18px;
+  padding: 6px 16px 28px;
 }
 
 .card {
-  width: 250px;
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  margin: 10px;
+  width: 260px;
+  background: linear-gradient(180deg, #fffdf8 0%, #fff4e7 100%);
+  border: 2px solid #f2dfc8;
+  border-radius: 22px;
+  margin: 0;
+  box-shadow: 0 12px 24px rgba(141, 108, 83, 0.14);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 28px rgba(141, 108, 83, 0.2);
 }
 
 .card-content {
-  padding: 15px;
+  padding: 18px;
   text-align: center;
 }
 
+.card-content h2 {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  color: #7b5d45;
+}
+
 .card-content > img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
+  width: 132px;
+  height: 132px;
+  object-fit: contain;
+  background: #fffaf4;
+  border-radius: 18px;
+  padding: 8px;
+  border: 2px solid #f4e5d5;
 }
 
 .ingredients {
   list-style: none;
   padding: 0;
-  margin: 12px 0 0;
+  margin: 14px 0 0;
+  text-align: left;
 }
 
 .ingredients li {
@@ -57,6 +82,9 @@ body {
   align-items: center;
   gap: 8px;
   margin: 6px 0;
+  background: rgba(255, 251, 245, 0.9);
+  border-radius: 999px;
+  padding: 6px 10px;
 }
 
 .ingredients img {
@@ -67,8 +95,9 @@ body {
 
 .description {
   font-size: 14px;
-  color: #555;
-  margin: 8px 0 12px;
+  line-height: 1.45;
+  color: #7a6657;
+  margin: 10px 0 14px;
 }
 
 .price {
@@ -76,17 +105,33 @@ body {
   align-items: center;
   justify-content: center;
   gap: 6px;
+  margin: 12px 0 8px;
+  color: #8e683f;
+  font-weight: 700;
 }
 
+.price-unit {
+  color: #9b7b2f;
+}
 
+.bell-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
 
 button {
   margin: 5px;
-  padding: 8px 12px;
+  padding: 9px 14px;
   border: none;
-  background: #f29c8f;
+  background: #f3a89a;
   color: white;
-  border-radius: 6px;
+  border-radius: 999px;
   cursor: pointer;
+  box-shadow: 0 6px 12px rgba(185, 116, 103, 0.18);
+}
+
+button:hover {
+  background: #ec9788;
 }
 
