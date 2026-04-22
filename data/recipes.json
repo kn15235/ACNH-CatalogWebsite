@@ -38,7 +38,7 @@
     {
     "name": "Spaghetti Marinara",
     "image": "assets/recipes/spaghetti-marinara.png",
-    "price": 660,
+    "price": 200,
     "description": "A cozy plate of pasta with bright tomato sauce that looks fresh from the island kitchen",
     "ingredients": [
       { "label": "3 Flour",

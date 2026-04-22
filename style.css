@@ -135,3 +135,21 @@ button:hover {
   background: #ec9788;
 }
 
+.controls input,
+.controls select {
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #d8c2a8;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.controls input {
+  width: 180px;
+}
+
+.controls select {
+  background: white;
+  color: #5f4a3a;
+}
+

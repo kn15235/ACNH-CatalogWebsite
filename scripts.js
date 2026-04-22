@@ -113,6 +113,37 @@ function removeLastCard() {
   showCards(); // Call showCards again to refresh
 }
 
+//searching recipe for search bar implementation
+function searchRecipes(searchText) {
+  const lowerCaseSearch = searchText.toLowerCase();
+
+  currentRecipes = recipes.filter(function(recipe) {
+    return recipe.name.toLowerCase().includes(lowerCaseSearch);
+  });
+
+  showCards();
+}
+
+//sorting filter
+function sortRecipes(sortType) {
+  currentRecipes = [...currentRecipes];
+
+  if (sortType === "price-low") {
+    currentRecipes.sort(function(a, b) {
+      return a.price - b.price;
+    });
+  } else if (sortType === "price-high") {
+    currentRecipes.sort(function(a, b) {
+      return b.price - a.price;
+    });
+  } else if (sortType === "name") {
+    currentRecipes.sort(function(a, b) {
+      return a.name.localeCompare(b.name);
+    });
+  }
+
+  showCards();
+}
 
 //loads page, calls loadRecipes() when user first enters page
 document.addEventListener("DOMContentLoaded", loadRecipes);
