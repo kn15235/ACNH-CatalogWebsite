@@ -79,19 +79,27 @@ function editCardContent(card, recipe) {
   }
 }
 
-
-// This calls the addCards() function when the page is first loaded (loads page)
-document.addEventListener("DOMContentLoaded", showCards);
-
-function quoteAlert() {
-  console.log("Button Clicked!");
-  alert(
-    "I guess I can kiss heaven goodbye, because it got to be a sin to look this good!",
-  );
+// filters 
+function showAll() {
+  currentRecipes = [...recipes];
+  showCards(); 
 }
 
+function showOfficial() {
+  currentRecipes = recipes.filter(r => r.section !== "fanmade");
+}
+
+function showFanmade() {
+  currentRecipes = recipes.filter(r => r.section === "fanmade");
+}
+
+//removing lastcard
 function removeLastCard() {
-  titles.pop(); // Remove last item in titles array
+  currentRecipes.pop(); // Remove last item in titles array
   showCards(); // Call showCards again to refresh
 }
+
+
+//loads page, calls loadRecipes() when user first enters page
+document.addEventListener("DOMContentLoaded", loadRecipes);
 
