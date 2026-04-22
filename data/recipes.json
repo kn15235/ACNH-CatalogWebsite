@@ -407,6 +407,111 @@
       { "label": "1 Tomato", "image": "assets/ingredients/tomato.png" },
       { "label": "1 Carrot", "image": "assets/ingredients/carrot.png" }
     ]
+  },
+  
+  {
+    "name": "Snapchat Cookie",
+    "image": "assets/recipes/snapchat-cookie.png",
+    "price": 1200,
+    "description": "A bright yellow cookie decorated with the iconic ghost logo.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Sugar", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "Ghostface Chillah Cake",
+    "image": "assets/recipes/ghostface-cake.png",
+    "price": 1800,
+    "description": "A playful cake topped with a smiling ghost mascot and creamy frosting.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "3 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "2 Sugar", "image": "assets/ingredients/sugar.png" },
+      { "label": "1 Coconut Milk", "image": "assets/ingredients/coconut-milk.png" }
+    ]
+  },
+  {
+    "name": "HTML Cookie",
+    "image": "assets/recipes/html-cookie.png",
+    "price": 1000,
+    "description": "A cute cookie decorated with HTML symbols",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "CSS Cookie",
+    "image": "assets/recipes/css-cookie.png",
+    "price": 1000,
+    "description": "A stylish cookie decorated with curly brace icing.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "JavaScript Cookie",
+    "image": "assets/recipes/js-cookie.png",
+    "price": 1000,
+    "description": "A soft cookie decorated with JavaScript symbols.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Sugar", "image": "assets/ingredients/sugar.png" }
+    ]
+  },
+  {
+    "name": "Beef Wellington",
+    "image": "assets/recipes/beef-wellington.png",
+    "price": 3200,
+    "description": "Gordan Ramsey's premium dish featuring beef wrapped in pastry with rich filling.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "3 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Beef", "image": "assets/ingredients/beef.png" },
+      { "label": "1 Mushroom", "image": "assets/ingredients/round-mushroom.png" }
+    ]
+  },
+  {
+    "name": "Lamb Sauce",
+    "image": "assets/recipes/lamb-sauce.png",
+    "price": 900,
+    "description": "A rich savory sauce inspired by Gordon Ramsay's famous phrase, WHERE'S THE LAMB SAUCCCCCEEE!??",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Tomato", "image": "assets/ingredients/tomato.png" },
+      { "label": "1 Herb", "image": "assets/ingredients/weeds.png" }
+    ]
+  },
+  {
+    "name": "Macarons",
+    "image": "assets/recipes/macarons.png",
+    "price": 1500,
+    "description": "Colorful sweet sandwich cookies with a delicate texture.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Sugar", "image": "assets/ingredients/sugar.png" },
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "1 Peach", "image": "assets/ingredients/peach.png" }
+    ]
+  },
+  {
+    "name": "Takoyaki",
+    "image": "assets/recipes/takoyaki.png",
+    "price": 1800,
+    "description": "A savory street food made with octopus and batter, topped with sauce.",
+    "section": "fanmade",
+    "ingredients": [
+      { "label": "2 Flour", "image": "assets/ingredients/flour.png" },
+      { "label": "8 Octopus", "image": "assets/ingredients/squid.png" },
+      { "label": "2 Seaweed", "image": "assets/ingredients/weeds.png" }
+    ]
   }
-
 ]
+
+  
