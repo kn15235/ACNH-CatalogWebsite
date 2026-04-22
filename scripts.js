@@ -72,7 +72,7 @@ function editCardContent(card, recipe) {
   const list = card.querySelector(".ingredients");
   list.innerHTML = "";
 
-  for (let i = 0; i < recipe.iingredients.length; i++){
+  for (let i = 0; i < recipe.ingredients.length; i++) {
     const li = document.createElement("li");
     li.textContent = recipe.ingredients[i].label;
     list.appendChild(li);
@@ -87,10 +87,12 @@ function showAll() {
 
 function showOfficial() {
   currentRecipes = recipes.filter(r => r.section !== "fanmade");
+  showCards();
 }
 
 function showFanmade() {
   currentRecipes = recipes.filter(r => r.section === "fanmade");
+  showCards();
 }
 
 //removing lastcard
