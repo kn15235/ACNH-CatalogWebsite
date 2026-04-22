@@ -61,20 +61,31 @@ function showCards() {
 function editCardContent(card, recipe) {
 
   card.querySelector("h2").textContent = recipe.name; 
+  card.querySelector(".description").textContent = recipe.description;
 
-  const cardImage = card.querySelector("img");
+  const cardImage = card.querySelector(".card-content > img");
   cardImage.src = recipe.image;
   cardImage.alt = recipe.name;
 
-  card.querySelector(".price").textContent = 
-  "Price: " + recipe.price + "Bells";
+  card.querySelector(".price").textContent =
+    "Price: " + recipe.price + " Bells";
 
   const list = card.querySelector(".ingredients");
   list.innerHTML = "";
 
   for (let i = 0; i < recipe.ingredients.length; i++) {
+    const ingredient = recipe.ingredients[i];
     const li = document.createElement("li");
-    li.textContent = recipe.ingredients[i].label;
+
+    const ingredientImage = document.createElement("img");
+    ingredientImage.src = ingredient.image;
+    ingredientImage.alt = ingredient.label;
+
+    const ingredientLabel = document.createElement("span");
+    ingredientLabel.textContent = ingredient.label;
+
+    li.appendChild(ingredientImage);
+    li.appendChild(ingredientLabel);
     list.appendChild(li);
   }
 }
