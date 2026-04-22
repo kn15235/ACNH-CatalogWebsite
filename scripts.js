@@ -43,45 +43,44 @@ async function loadRecipes() {
 function showCards() {
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
-  const templateCard = document.querySelector(".card");
+  const templateCard = document.getElementById("template-card");
 
-  for (let i = 0; i < titles.length; i++) {
-    let title = titles[i];
+  for (let i = 0; i < currentRecipes.length; i++) {
+    let recipe = currentRecipes[i];
 
-    // This part of the code doesn't scale very well! After you add your
-    // own data, you'll need to do something totally different here.
-    let imageURL = "";
-    if (i == 0) {
-      imageURL = FRESH_PRINCE_URL;
-    } else if (i == 1) {
-      imageURL = CURB_POSTER_URL;
-    } else if (i == 2) {
-      imageURL = EAST_LOS_HIGH_POSTER_URL;
-    }
+    const card = templateCard.cloneNode(true); //copying template card
+    card.style.display = "block";
+    card.removeAttribute("id"); 
 
-    const nextCard = templateCard.cloneNode(true); // Copy the template card
-    editCardContent(nextCard, title, imageURL); // Edit title and image
-    cardContainer.appendChild(nextCard); // Add new card to the container
+    editCardContent(card, recipe); // Edit title and image
+    cardContainer.appendChild(card); // Add new card to the container
   }
 }
 
-function editCardContent(card, newTitle, newImageURL) {
-  card.style.display = "block";
+//Editing the card content
+function editCardContent(card, recipe) {
 
-  const cardHeader = card.querySelector("h2");
-  cardHeader.textContent = newTitle;
+  card.querySelector("h2").textContent = recipe.name; 
 
   const cardImage = card.querySelector("img");
-  cardImage.src = newImageURL;
-  cardImage.alt = newTitle + " Poster";
+  cardImage.src = recipe.image;
+  cardImage.alt = recipe.name;
 
-  // You can use console.log to help you debug!
-  // View the output by right clicking on your website,
-  // select "Inspect", then click on the "Console" tab
-  console.log("new card:", newTitle, "- html: ", card);
+  card.querySelector(".price").textContent = 
+  "Price: " + recipe.price + "Bells";
+
+  const list = card.querySelector(".ingredients");
+  list.innerHTML = "";
+
+  for (let i = 0; i < recipe.iingredients.length; i++){
+    const li = document.createElement("li");
+    li.textContent = recipe.ingredients[i].label;
+    list.appendChild(li);
+  }
 }
 
-// This calls the addCards() function when the page is first loaded
+
+// This calls the addCards() function when the page is first loaded (loads page)
 document.addEventListener("DOMContentLoaded", showCards);
 
 function quoteAlert() {
